@@ -1,0 +1,50 @@
+:root{
+/* --- brand: mint/teal (from logo gradient #1FD3A3 -> #0F9B7E) --- */
+--mint-50:#EBFBF5;--mint-100:#D1F6E7;--mint-200:#A3EED0;--mint-300:#6EE2B8;--mint-400:#3DD8A3;
+--mint-500:#1FD3A3;--mint-600:#14B58C;--mint-700:#0F9B7E;--mint-800:#0C7A64;--mint-900:#0A5F4F;--mint-950:#073F35;
+
+/* --- ink: near-black charcoal matching the wordmark, warm/green undertone --- */
+--ink-50:#F6FAF8;--ink-100:#EEF4F1;--ink-200:#DCE7E2;--ink-300:#BFCEC7;--ink-400:#93A69C;
+--ink-500:#6B7D74;--ink-600:#4C5D55;--ink-700:#33423C;--ink-800:#212E29;--ink-900:#16211D;--ink-950:#0E1613;
+
+/* --- warm accents: chart categories + status, friendly not alarmist --- */
+--gold-400:#F4C567;--gold-500:#E8A93B;--gold-600:#C98B22;
+--coral-400:#F0958B;--coral-500:#E2685C;--coral-600:#C64A3F;
+--sky-400:#7EC0EE;--sky-500:#4C9FE0;--sky-600:#3179B8;
+--violet-400:#B7A6EE;--violet-500:#9179DE;--violet-600:#7259BE;
+
+/* --- admin: distinct accent so admin reads as a different app at a glance --- */
+--admin-400:#8791F0;--admin-500:#5A61E0;--admin-600:#4048C2;--admin-700:#2F36A0;
+
+/* --- semantic: light theme --- */
+--color-primary:var(--mint-800);--color-primary-hover:var(--mint-900);--color-primary-active:var(--mint-950);--color-primary-soft:var(--mint-50);--color-on-primary:#FFFFFF;
+--color-success:var(--mint-800);--color-success-soft:var(--mint-50);
+--color-warning:var(--gold-500);--color-warning-soft:#FBF1DD;
+--color-danger:var(--coral-500);--color-danger-soft:#FBEBE8;
+--color-info:var(--sky-500);--color-info-soft:#EAF4FC;
+
+--surface-page:var(--ink-50);--surface-card:#FFFFFF;--surface-sunken:var(--ink-100);--surface-overlay:#FFFFFF;--surface-inverse:var(--ink-900);
+--border-subtle:var(--ink-200);--border-default:var(--ink-300);--border-strong:var(--ink-400);
+--text-primary:var(--ink-900);--text-secondary:var(--ink-600);--text-tertiary:var(--ink-500);--text-on-primary:#FFFFFF;--text-disabled:var(--ink-400);--text-link:var(--mint-800);--text-link-hover:var(--mint-900);
+
+--chart-1:var(--mint-500);--chart-2:var(--sky-500);--chart-3:var(--gold-500);--chart-4:var(--coral-500);--chart-5:var(--violet-500);--chart-6:var(--ink-400);
+--chart-grid:var(--ink-200);--chart-projected:var(--ink-300);
+
+--focus-ring:var(--mint-700);
+}
+
+[data-theme="dark"]{
+--surface-page:var(--ink-950);--surface-card:#182722;--surface-sunken:#121E1A;--surface-overlay:#1E322B;--surface-inverse:var(--ink-50);
+--border-subtle:#26372F;--border-default:#354a41;--border-strong:#4c6459;
+--text-primary:var(--ink-50);--text-secondary:var(--ink-300);--text-tertiary:var(--ink-400);--text-on-primary:#06231D;--text-disabled:var(--ink-600);--text-link:var(--mint-400);--text-link-hover:var(--mint-300);
+
+--color-primary:var(--mint-400);--color-primary-hover:var(--mint-300);--color-primary-active:var(--mint-200);--color-primary-soft:#173029;--color-on-primary:#06231D;
+--color-success:var(--mint-400);--color-success-soft:#173029;
+--color-warning:var(--gold-400);--color-warning-soft:#2E2612;
+--color-danger:var(--coral-400);--color-danger-soft:#301715;
+--color-info:var(--sky-400);--color-info-soft:#122534;
+
+--chart-1:var(--mint-400);--chart-2:var(--sky-400);--chart-3:var(--gold-400);--chart-4:var(--coral-400);--chart-5:var(--violet-400);--chart-6:var(--ink-400);
+--chart-grid:#2A3D35;--chart-projected:#3A4F46;
+--focus-ring:var(--mint-300);
+}

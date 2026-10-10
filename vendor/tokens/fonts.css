@@ -1,0 +1,8 @@
+/* Pentily type — self-hosted Google Fonts substitutes for the brand's rounded geometric wordmark.
+   Display: Baloo 2 (closest open match to the logo's bold rounded terminals).
+   UI/body: Plus Jakarta Sans (same rounded-geometric family, tuned for small-size legibility).
+   Only the weights this page actually uses are included — see components/ for the full set. */
+@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;font-display:swap;src:url('../assets/fonts/baloo-2-700.woff') format('woff')}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400;font-display:swap;src:url('../assets/fonts/plus-jakarta-sans-400.woff') format('woff')}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:500;font-display:swap;src:url('../assets/fonts/plus-jakarta-sans-500.woff') format('woff')}
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:600;font-display:swap;src:url('../assets/fonts/plus-jakarta-sans-600.woff') format('woff')}
